@@ -1,0 +1,148 @@
+			core java-Day13
+
+jdbc
+  statement
+  prepared statement
+  callable statement
+
+find the employee who is earning max sal from 
+perticuler deptment
+
+select ename from emp where sal = (select max(sal) from emp where deptno = 20);
+
+
+Exception
+
+throwable
+
+   Exception
+        - Io Exception
+        - sql exception
+       
+
+     Runtime exception
+         Arithmetic exception
+         nullpointer exception
+         arrayindexoutofboundException
+---------------------------------------------------------
+try
+catch
+finally
+
+Throw
+  is used to throw the exception explicitly
+  is used to throw custem exception
+
+   
+Throws
+---------------------------------------------------------------------
+
+
+checked exception
+
+unchecked exception
+
+------------------------------------------------------------------
+Networking
+   Socket programming
+client to server - communication
+
+Tcp Ip
+
+ip address
+
+port no
+
+-----------------------------------------------------------
+classes
+method
+
+client
+{
+       (ip address, 888)
+   say hello
+
+
+}
+
+Server
+{
+
+
+Hi
+
+
+}
+
+Socket
+
+ServerSocket
+
+accept()
+
+println()- 
+- few io classes
+
+
+create file
+read from console
+write to the file
+read from file
+write to the console
+
+client
+
+create client socket
+read from console
+write to the socket
+
+server
+read from the socket
+write to the console
+
+
+nscdac@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

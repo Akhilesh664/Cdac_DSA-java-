@@ -1,0 +1,129 @@
+			 Core java- day12
+Packages
+java.util-collection
+java.io - file handling
+
+java.sql - jdbc
+
+
+java.net - networking
+java.lang - Threading
+java.lang - Excetion
+
+
+Jdbc
+
+1) loading driver
+2) getting connection
+3) create statement
+4) create query
+5) execute query
+6) store the result set
+7) iterate the restset
+8) close the connection
+
+------------------------------------------------------------------
+statement
+
+prepared statement
+
+
+callable statement
+
+delimiter //
+drop procedure getEmpName//
+
+create procedure getEmpName(In eno int,out name varchar(20))
+begin
+Select ename into name from emp where empno = eno;
+end //
+
+call getEmpName(7@nam369,e)//
+
+
+-------------------------------------------------------------
+
+drop procedure MaxSal//
+
+create procedure MaxSal(In dno int,out name varchar(20))
+begin
+
+select ename,max(sal),deptno from emp
+group by deptno;
+
+
+   where deptno = dno;
+
+------------------------------------------------------------------------
+Select ename into name from emp where empno = eno;
+end //
+
+
+exception
+-exception is a runtime error
+
+- error occured during run time;
+
+- the flow of program get stoped
+
+- handle the exception
+
+main
+{
+statement1
+statement2
+
+statement3 - exception
+
+statement4
+statement5
+
+}
+
+
+try
+catch
+finally
+
+throw
+throws
+
+--------------------------------------------------------------------
+
+classes
+
+runtime exception
+
+ArithmeticException
+NullPointerExeption
+ArrayIndexOutofBoundException
+
+
+
+SqlException
+IOException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

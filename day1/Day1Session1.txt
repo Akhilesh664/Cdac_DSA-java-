@@ -1,0 +1,272 @@
+				Core java
+part I
+Introduction to java
+data types
+variables
+operators
+conditional control statments
+Array
+
+
+Part II
+oops concepts
+
+classes and objects
+encapsulation
+inheritance
+polymorphism
+  method overloading
+  method overriding
+
+abstraction
+   abstract class
+   interface
+
+this
+final
+static
+super
+
+public
+private
+default
+protected
+
+
+
+part III
+packages
+
+java.lang
+      - Exception
+
+      - Threading
+
+java.util
+      - collection-
+java.io
+      - file handling
+
+java.net
+      - socket programming
+
+java.sql
+      - jdbc
+
+
+additional
+lambda
+Stream api
+enum
+Generics
+
+
+
+
+
+
+Introduction to java
+
+What is java
+
+java is a high level, object oriented,multipurpose language and a platform
+
+history of java
+
+java was developed by James Gosling in sun microsystem at 1995
+
+java1.2- 1996
+
+
+jdk1.2
+
+javaSE 7
+javaSE 17
+
+usage of java
+
+java used to develop 
+
+1) desktop application
+    application which run on locally, stand alone application
+    java, javac,awt,swing
+    
+    java SE
+      - 
+2) web applciation
+   
+   application which runs on server
+
+   java EE
+   - servlet,jsp,struts,spring,hibernate
+
+
+3) mobile appliction
+
+    application which runs on electronic devices
+    mobile
+
+    Java ME
+
+    Android
+
+component of java
+
+three components
+
+1) jdk
+    java development kit
+    jre+development tool(java,javac)
+    used to develop and run java application
+
+
+2) jre
+
+     java runtime environment
+      jvm+set of libraries
+     -used to only run the java appliction
+
+
+3 jvm
+     - java virtual machine
+     - used to convert the class file into machine code
+
+how java works
+
+featurs of java
+
+1)simple
+
+2)robust/secure
+
+3)platform independence
+  
+  write once run on anywhere
+                    any os
+
+4)portable
+
+5) dynamic
+
+6) multi threaded
+
+
+data types
+1) primitives
+    
+Integer
+   byte - 1
+   short -2
+   int   -4 
+   long  -8
+
+floating
+    float -4
+    double -8
+
+char      2 byte
+
+boolean   1 bit
+
+
+-------------------------------------------------------------------
+2) non primitives or reference data type
+
+1) String
+2) Array
+3) class
+
+class Emp 
+{
+
+
+
+}
+
+
+Emp e
+
+String name
+
+int[] mark  = new int[4]
+
+
+Variable
+
+1) local
+
+   a variable which is declared inside the method
+   
+2) instance
+3) statiac
+
+
+Hello world program in java
+
+
+1) jdk1.8
+
+Hello world program in java
+        using command line
+
+
+2) IDE
+
+compile
+
+javac Hello.java
+
+run
+
+java Hello
+
+
+Hello world program in java
+        using eclipse
+
+workspace
+
+C:\Users\lenovo\Desktop\DACSEP2023
+
+new
+  java project
+          project name
+
+
+new 
+  class
+     - class name
+
+
+
+public  int nextInt()
+{
+
+
+
+  return 0
+}
+
+
+
+java.util
+
+class Scanner 
+{
+
+ int nextInt()
+{
+
+}
+
+
+
+}
+
+Scanner s = new Scanner(System.in)
+
+
+
+
+
+

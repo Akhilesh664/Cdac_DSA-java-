@@ -1,0 +1,44 @@
+			core java-day10
+Part III- Packages
+
+collection
+   arraylist
+   Map
+   Linked list
+   stack
+   Queue
+
+File handling
+  
+create file
+read data from console
+write data to the file
+read data from the file
+write data to the console
+
+
+how to read/write object
+
+readwrite string- FileReader/Writer
+
+readwrite primitivies - datainput/output stream
+
+readwrite array/object - object/intput/output stream
+
+
+bufferedReader
+inputStreamReader - read data from console/file
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+			CORE JAVA-DAY11
+
+Packages
+
+collection
+   array list
+   linked list
+   stack
+   queue
+   map
+
+file handling
+  read write string
+
+   FileWrite fw 
+   FileReader
+    -BufferedReader
+
+  read char
+  read write primitives
+
+  read write object
+
+   
+   FileOutputStream
+      - create file for object write
+
+    ObjectOutputStream
+      - write object
+    ObjectInputStream
+      - read object
+
+
+String str= br.readLine();
+
+
+Iterator it = al.iterator()
+
+Emp e =  (emp)it.next();
+---------------------------------------------------------------
+create class
+create object
+
+create file and open for object write
+write object into the file
+-------------------------------------------------------------
+read from file
+do logic
+write to the console
+-----------------------------------------------------------------
+read  csv
+--------------------------------------------------------------
+
+read write primitives
+
+int  pid =1001
+float price= 40000
+String pname= "Lenovo"
+
+FileoutputStream fo = new FileoutputStream("dac1")
+DataOutputStream do = new DataOutputStream(fo)
+
+do.writeInt()
+do.writeFloat()
+do.writeUTF()
+
+close()
+
+---------------------------------------------------------------------
+// create connection
+
+Class.forName("com.mysql.cj.jdbc.Driver");
+	
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","cdacacts");
+		
+System.out.println(" data base connected");
+
+Jdbc
+
+java data base connectivity
+
+Jdbc is a API which  is used to connect java with data base
+
+
+DriverManager
+connection
+
+statement
+   select * from emp where empno = 1001;
+
+
+preparedStatement
+
+
+select * from emp where empno = ?;
+
+insert into regis value(? ? ? ?)
+
+callableStatemetnt
+  invoke the stored procedure
+resultset
+
+------------------------------------------------------------------------
+
+1) loading drivers
+
+2) create connction
+
+3) create statement
+
+4) create query
+
+5) execute the query
+
+6) store the data in resultset
+
+7) iterate it
+
+8) close connection()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

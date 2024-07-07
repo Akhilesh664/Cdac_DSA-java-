@@ -1,0 +1,78 @@
+			Core java-Day2
+
+Introduction to java
+
+data types
+
+variables
+------------------------------------------------------------------
+operators
+
+Arithmetic operator
+relational operators
+logical operators
+assignment
+ternary
+.
+new
+unary
+
+conditional and control statements
+
+conditional
+
+if
+if esle
+if else if
+
+switch
+
+control flow
+
+for
+while
+do while
+
+break
+continue
+-------------------------------------------------------------------
+
+array
+
+how to declare array
+
+int[] mark = new int[5]
+
+int num;
+
+how to initialize the array
+
+mark[0]= 10;
+mark[1]= 20;
+mark[2]= 30;
+mark[3]= 40;
+mark[4]= 50;
+
+how to iterate the array
+
+for(int i = 0;i<5;i++)
+{
+
+syso(mark[i])
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	

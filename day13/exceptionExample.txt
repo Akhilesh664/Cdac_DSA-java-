@@ -1,0 +1,33 @@
+public class Exception3
+{
+	
+	public  static void eligibleforvote(int age) 
+	{
+		try
+		{
+		if(age<18)
+		{
+		   
+			throw  new NullPointerException();
+		    
+		}}catch(NullPointerException e)
+		{
+			System.out.println("not eligible");
+		}
+			
+		
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+
+	int age=10;
+	
+	eligibleforvote(age);
+	
+	
+}
+
+
+}
