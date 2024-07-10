@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class countOfElements {
-	 public int countOfElements(List<Integer> arr, int x) {
+	 	public int countOfElements(List<Integer> arr, int x) {
 	        int count = 0;
 	        for(int i = 0; i < arr.size(); i++) {
 	            if(x >= arr.get(i)) {
