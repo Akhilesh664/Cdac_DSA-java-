@@ -1,4 +1,5 @@
 // @1 Array-List
+package day8;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -33,13 +34,13 @@ public class ArrayListExample
 	    
 	    
 	    al.set(0,5);
-	    System.out.println(al);
+//	    System.out.println(al);
 	    //iterating using for each
 		
-//		for( Integer n :al)
-//		{
-//			System.out.println(n);
-//		}
+		for( Integer n :al)
+		{
+			System.out.println(n);
+		}
 		
 		
 		//iterate using iterator

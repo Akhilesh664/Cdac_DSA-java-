@@ -1,4 +1,5 @@
 // 2
+package day7;
 abstract public class Bike
 {
 

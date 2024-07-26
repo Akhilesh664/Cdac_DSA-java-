@@ -1,4 +1,6 @@
 // 4
+package day7;
+
 interface connection
 {
    public void connect();

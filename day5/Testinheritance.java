@@ -1,4 +1,6 @@
- class A
+package day5;
+
+class A
 {
 	
 	void print()

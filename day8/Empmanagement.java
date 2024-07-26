@@ -1,5 +1,5 @@
 //@2 Array-List
-
+package day8;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Empmanagement
 
 	public static void dispemp(ArrayList<Emp> al)
 	{
-		for(Emp e :al)
+		for(Emp e :al) 
 		{
 		  e.dispEmp();
 		}

@@ -1,9 +1,6 @@
-// #3  has relation
-package day5;
+package d5;
 
-public class TestHasaRelation 
-{
-
+public class TesthasaRelation {
 	public static void main(String[] args) 
 	{
 	Address add = new Address("Blr","karnataka",560038);
@@ -12,4 +9,5 @@ public class TestHasaRelation
 	
 	e.empdetails();
 	}
+
 }

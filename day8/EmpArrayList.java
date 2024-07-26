@@ -1,5 +1,5 @@
 //@2 Array-List
-
+package day8;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;

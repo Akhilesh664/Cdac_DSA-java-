@@ -1,27 +1,27 @@
 // #1 overloading
 
-public class TestOverloading
-{
-	
-	
-public static void main(String[] args) 
-{
+//public class TestOverloading
+//{
+//	
+//	
+//public static void main(String[] args) 
+//{
+//
+//String [] sub = {"c++","java","dbt"};
+//int []  n = {10,20,30,40};
+//
+//methodOverloading.sort(sub);
+//methodOverloading.sort(n);
+//		
+//
+//
+//} 
+//
+//}
 
-String [] sub = {"c++","java","dbt"};
-int []  n = {10,20,30,40};
-
-methodOverloading.sort(sub);
-methodOverloading.sort(n);
-		
 
 
-} 
-
-}
-
-
-
--------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------
 
 // @1 Operator Overloading
 package day6;

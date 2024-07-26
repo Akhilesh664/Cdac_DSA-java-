@@ -1,11 +1,10 @@
-// #1
-package day5;
-public class Address 
-{
+package d5;
 
-	 String city;
-	 String state;
-	 int pin;
+public class Address {
+	
+	String city;
+	String state;
+	int pin;
 	
 	public Address(String city, String state, int pin) {
 		
@@ -13,6 +12,5 @@ public class Address
 		this.state = state;
 		this.pin = pin;
 	}
-	
-		
+
 }

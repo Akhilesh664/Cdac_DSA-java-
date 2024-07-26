@@ -1,4 +1,6 @@
 // 1
+
+package day7;
 abstract public class Emp 
 {
 

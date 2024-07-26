@@ -1,3 +1,4 @@
+package day6;
 // @2a overriding - Example
 
 public class Product 
@@ -10,6 +11,10 @@ public class Product
 		
 		this.id = id;
 		this.name = name;
+	}
+	
+	public void disp() {
+	    System.out.println("ID: " + id + ", Name: " + name);
 	}
 
 	@Override

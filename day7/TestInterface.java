@@ -1,4 +1,6 @@
 // 4
+
+package day7;
 import java.util.Scanner;
 
 public class TestInterface 

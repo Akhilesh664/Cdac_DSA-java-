@@ -1,3 +1,4 @@
+package day6;
 // @5 ecapsulation
 
 public class Testencapsulation 
@@ -7,7 +8,7 @@ public class Testencapsulation
 	{
 	
 		Emp e = new Emp();
-		e.setEmpno(-1001);
+		e.setEmpno(1001);
 		int empno=e.getEmpno();
 		System.out.println(empno);	
 		

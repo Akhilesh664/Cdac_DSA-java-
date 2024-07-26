@@ -1,4 +1,5 @@
 // @5 ecapsulation
+package day6;
 
 public class Emp 
 {

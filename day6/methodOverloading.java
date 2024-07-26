@@ -1,27 +1,27 @@
 // #1 overloading
 
-public class methodOverloading 
-{
+//public class methodOverloading 
+//{
+//
+//	static void sort(int[] num)
+//	{
+//		System.out.println("int eger array sorting");
+//		
+//	}
+//	
+//	
+//	static void sort(String[] str)
+//	{
+//		System.out.println("String array sorting");
+//		
+//	}
+//	
+//	
+//	
+//	
+//}
 
-	static void sort(int[] num)
-	{
-		System.out.println("int eger array sorting");
-		
-	}
-	
-	
-	static void sort(String[] str)
-	{
-		System.out.println("String array sorting");
-		
-	}
-	
-	
-	
-	
-}
-
-----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
 // @1 Operator Overloading
 
 package day6;

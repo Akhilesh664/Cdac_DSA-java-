@@ -1,6 +1,6 @@
 // @2b overriding - Example
-
-public class Student extends Object
+package day6;
+public class Student 
 {
 
 	int sno;

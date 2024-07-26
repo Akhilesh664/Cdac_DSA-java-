@@ -1,4 +1,6 @@
 // 3
+
+package day7;
 public interface printable
 {
 

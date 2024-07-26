@@ -1,5 +1,5 @@
 // @4 Hash-Map
-
+package day8;
 import java.util.HashMap;
 import java.util.Map;
 

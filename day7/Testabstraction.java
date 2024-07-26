@@ -1,4 +1,6 @@
 // 2
+
+package day7;
 public class Testabstraction 
 {
 	

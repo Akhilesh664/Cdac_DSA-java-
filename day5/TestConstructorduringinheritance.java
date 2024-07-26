@@ -1,4 +1,5 @@
 // #4
+package day5;
 class D
 {
 	int i;

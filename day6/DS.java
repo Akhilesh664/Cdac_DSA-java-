@@ -1,3 +1,4 @@
+package day6;
 // @4 dsa linked list and stack
 
 import java.util.LinkedList;

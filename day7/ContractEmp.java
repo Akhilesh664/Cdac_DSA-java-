@@ -1,4 +1,6 @@
 // 1
+
+package day7;
 public class ContractEmp extends Emp
 {
 
@@ -17,6 +19,7 @@ public class ContractEmp extends Emp
 		sal = msal+can;
 		System.out.print(sal);
 	}
+	
 	void dispcondetails()
 	{
 		System.out.print(msal+""+can);

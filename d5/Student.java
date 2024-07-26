@@ -1,35 +1,32 @@
-// @2
-package day5;
+package d5;
 
 import java.util.Scanner;
 
 public class Student extends Person
 {
-
 	int mark;
 	String subject;
 	
-	Student()
-	{
-		System.out.println("noc Student");
+	
+	Student(){
+		System.out.println("noc student");
 	}
-
-	public Student(int no,String name,String add,int mark, String subject) {
-		super(no,name,add);
+	
+	public Student(int no, String name, String add, int mark, String subject) {
+		super(no, name, add);
 		this.mark = mark;
 		this.subject = subject;
 	}
-
-
-	void readStudent()
-	{
-		Scanner s = new Scanner(System.in);
-		no  = s.nextInt();
-		name = s.next();
-		add = s.next();
-		mark = s.nextInt();
-		subject = s.next();
-	} 
+	
+//	void readStudent()
+//	{
+//		Scanner s = new Scanner(System.in);
+//		no  = s.nextInt();
+//		name = s.next();
+//		add = s.next();
+//		mark = s.nextInt();
+//		subject = s.next();
+//	}
 	
 	void dispStudent()
 	{
@@ -46,4 +43,5 @@ public class Student extends Person
 		System.out.println();
 	}
 	
+
 }

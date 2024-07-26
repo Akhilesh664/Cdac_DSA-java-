@@ -1,3 +1,4 @@
+package day6;
 // @3 example overriding
 
  class Vehicle 
@@ -17,7 +18,7 @@
 
 class car extends Vehicle
 {
-	
+
 	void start()
 	{
 		System.out.println("car started");
@@ -53,6 +54,7 @@ class testOverriding
 		
 		Bike b = new Bike();
 		b.run();
+		b.start();
 		
 	}
 	

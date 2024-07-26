@@ -1,4 +1,5 @@
 // @6 multithreading 
+package day6;
 
 public class MultiThreading extends Thread
 

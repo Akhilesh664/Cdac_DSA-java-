@@ -1,8 +1,7 @@
-// #2
-package day5;
-public class Emp 
-{
+package d5;
 
+
+public class Emp {
 	int id;
 	String name;
 	Address add;
@@ -15,11 +14,9 @@ public class Emp
 		this.add = add;
 	}
 	
-	
 	void empdetails()
 	{   
 		System.out.print(id+name+" " +add.city+add.state+add.pin);
 	}
-	
-	
+
 }
