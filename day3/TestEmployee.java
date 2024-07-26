@@ -1,3 +1,4 @@
+package day3;
 
 public class TestEmployee 
 {
@@ -11,7 +12,7 @@ public class TestEmployee
 	    	System.out.println("third object");
 	    	Employee e3 = new Employee(1003,"siju",50000,"sysadmin");
 	    	
-	    	Employee e4 = new Employee();
+	    	Employee e4 = new Employee(); // for calling default constructor
 	    	e4.findtax();
 	    		    	
 	    	

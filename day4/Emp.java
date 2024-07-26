@@ -1,18 +1,19 @@
+package day4;
 
 public class Emp 
 {
 
-	int eno;
+	public int eno;
 	String ename;
-	float sal;
-	public Emp(int eno, String ename, float sal) {
+	public float sal;
+	public Emp(int eno, String ename, float sal) { //constructor
 		
 		this.eno = eno;
 		this.ename = ename;
 		this.sal = sal;
 	}
 	
-	void dispEmp()
+	public void dispEmp()
 	{
 		System.out.println(eno+ename+sal);
 	}

@@ -1,11 +1,12 @@
+package day2;
 
 public class ArrayExample
 {
-
 	public static void main(String[] args) 
 	{
 		int[] mark = new int[5];
 
+		
 		mark[0]= 10;
 		mark[1]= 20;
 		mark[2]= 30;
@@ -20,7 +21,7 @@ public class ArrayExample
 		total = total +mark[i];
 
 		}
-       System.out.println(total);
+		System.out.println(total);
 		
       
 		
@@ -32,9 +33,7 @@ public class ArrayExample
 		
 		for(int i = 0;i<s.length;i++)
 		{
-
 		System.out.println(s[i]);
-		
 		}
 		
 		
@@ -43,13 +42,10 @@ public class ArrayExample
 		//iterate using for each
 	System.out.println("using for each");
 	
-	for(String str :sub   )
+	for(String str :sub)
 	{
 		System.out.println(str);
 	}
 	
-       
-       
-		
 	}
 }

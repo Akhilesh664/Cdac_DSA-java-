@@ -1,3 +1,4 @@
+package day2;
 
 public class OperatorsExamples
 {
@@ -47,6 +48,8 @@ public class OperatorsExamples
     
         
      String max = (a>b) ?"b is small" : "b is big";
+//     String max = (a>b) ? ""
+     
     
     
     

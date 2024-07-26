@@ -1,12 +1,15 @@
-import java.util.Scanner;
+package day3;
 
-public class Employee
+//import java.util.Scanner;
+
+public class Employee   // declaring properties
 {
      int empno;
      String name;
      float sal;
      String desig;
-     Employee()
+
+     Employee() // Default constructor
      {
     	 System.out.println("object 4");
     	 empno = 1004;
@@ -14,7 +17,8 @@ public class Employee
     	 sal = 40000;
     	 desig ="programmer";
      }
-     Employee(int empno,String name,float sal,String desig)
+     
+     Employee(int empno,String name,float sal,String desig)  // constructor
      {
     	this.empno = empno;
     	this.name = name;

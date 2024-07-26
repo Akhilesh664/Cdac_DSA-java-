@@ -1,8 +1,9 @@
+package day2;
+
 import java.util.Scanner;
 
 public class ArrayManagement
-{
-                                                   
+{                                                   
 	public static int[]  createArray()
 	{
 		int[] mark = new int[5];
@@ -10,8 +11,7 @@ public class ArrayManagement
 		return mark;
 	}
 	
-	
-	
+		
 	public static int[] readArrayElement(int[] mark)
 	{
 		Scanner s = new Scanner(System.in);
@@ -23,13 +23,8 @@ public class ArrayManagement
 
 		}
 
-		return mark;
-		
-			}
-	
-	
-	
-
+		return mark;	
+	}
 
 
 	public static void displayArrayElement(int[] mark) 
@@ -40,5 +35,4 @@ public class ArrayManagement
 		}
 		
 	}
-			
 }
