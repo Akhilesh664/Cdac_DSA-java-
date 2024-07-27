@@ -1,19 +1,21 @@
-// @5  implements
-package day9;
+package d9;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+
 public class ArraylistStudent 
 {
-
+	
 	public static void main(String[] args) 
 	{
-	
-		Student s1 = new Student(1001,"bala",40);
+		
+		Student s1 = new Student(101,"anil", 20);
 		Student s2 = new Student(1002,"nathan",80);
 		Student s3 = new Student(1003,"shan",30);
 		Student s4 = new Student(1004,"akash",90);
+		
 		
 		ArrayList<Student> al = new ArrayList<>();
 		
@@ -25,15 +27,15 @@ public class ArraylistStudent
 		
 		System.out.println("sort by mark");
 		System.out.println("before sorting");
-		for(Student s   :al)
-		{
+		
+		
+		for(Student s : al) {
 			s.display();
 		}
 		
 		Sortbymark sm = new Sortbymark();
 		
 		Collections.sort(al,sm);
-		
 		
 		System.out.println("after sorting");
 		for(Student s   :al)
@@ -65,34 +67,8 @@ public class ArraylistStudent
 		
 		
 		
-//		ArrayList<Integer> al1 = new ArrayList<>();
-//		
-//		al1.add(10);
-//		al1.add(90);
-//		al1.add(100);
-//		al1.add(70);
-//		al1.add(20);
-//		
-//		System.out.println("before sorting");
-//		
-//		for(Integer n   :al1)
-//		{
-//			System.out.println(n);
-//		}
-//		
-//		
-//		Collections.sort(al1);
-//		
-//		
-//		System.out.println("after sorting");
-//		
-//		for(Integer n   :al1)
-//		{
-//			System.out.println(n);
-//		}
-//		
-		
 		
 		
 	}
+
 }

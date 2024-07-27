@@ -1,4 +1,5 @@
 // @2 file handling
+package day9;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -10,7 +11,7 @@ public class F1
 	public static void main(String[] args) throws IOException  
 	{
 	
-		FileWriter fw = new FileWriter("dac");
+		FileWriter fw = new FileWriter("dac"); 
 		
 		String str = "welcome to java file handling";
 		String str1 = "for pgdac";

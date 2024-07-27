@@ -1,3 +1,5 @@
+//2
+package day13;
 
 public class Exception2 
 {
@@ -12,7 +14,7 @@ public class Exception2
 			
 	     //cname = null;
 	     
-	     System.out.println(cname.length());
+	    System.out.println(cname.length());
 	     
 		System.out.println(mark[3]);
 		

@@ -1,4 +1,6 @@
 // 1
+package day13;
+
 public class EligibleException extends Exception
 {
 

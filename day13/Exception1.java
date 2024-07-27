@@ -1,4 +1,6 @@
-// 2
+// 1
+package day13;
+
 import java.util.Scanner;
 
 public class Exception1
@@ -16,6 +18,7 @@ public class Exception1
 		System.out.println(c);
 		}catch(ArithmeticException e)
 		{
+			System.out.println(e.getMessage());
 			System.out.println("value of b should not be zero");
 		}
 	

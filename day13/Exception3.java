@@ -1,4 +1,6 @@
 // 3
+package day13;
+
 public class Exception3
 {
 	
@@ -11,7 +13,8 @@ public class Exception3
 				throw new EligibleException("not eligible for vote");
 				
 				
-			}else
+			}
+			else
 			{
 				System.out.println("eligible for vote");
 			}
@@ -28,7 +31,7 @@ public class Exception3
 	public static void main(String[] args) 
 	{
 
-	int age=19;
+	int age=1;
 	
 	eligibleforvote(age);
 	

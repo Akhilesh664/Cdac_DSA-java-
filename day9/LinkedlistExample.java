@@ -1,4 +1,5 @@
 //  @3  linkedlist
+package day9;
 
 import java.util.LinkedList;
 

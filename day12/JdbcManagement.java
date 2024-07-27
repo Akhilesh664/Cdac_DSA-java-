@@ -1,5 +1,7 @@
 // @2 JDBC STATEMENT    *(EXAMPLE : WHERE WE NEED TO GET VALUE FROM USER TO EDIT IN DATA)*
 
+package day12;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

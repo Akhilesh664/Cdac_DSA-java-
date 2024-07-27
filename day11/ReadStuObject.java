@@ -1,3 +1,5 @@
+package day11;
+
 // 1
 import java.io.EOFException;
 import java.io.FileInputStream;

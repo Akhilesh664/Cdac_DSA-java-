@@ -1,3 +1,5 @@
+package day11;
+
 // 2
 public class SplitExample 
 {

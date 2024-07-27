@@ -1,4 +1,5 @@
 // @1 JDBC STATEMENT    *(EXAMPLE : WHERE WE NEED TO GIVE CONDITION INSIDE PROGRAM )  
+package day12;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +16,7 @@ public class JdbcStatement
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","cdacacts");
+		Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","akhil@1");
 		Statement smt;
 		 smt=con.createStatement();
 		

@@ -1,5 +1,4 @@
-// @5  implements
-package day9;
+package d9;
 
 public class Student 
 {

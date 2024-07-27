@@ -1,5 +1,7 @@
 // @4 EXCEPTION
 
+package day12;
+
 public class Exception1 
 {
 

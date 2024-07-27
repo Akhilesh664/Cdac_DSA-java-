@@ -1,5 +1,7 @@
 // @3 JDBC CALLABLE-STATEMENT
 
+package day12;
+
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;

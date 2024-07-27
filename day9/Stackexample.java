@@ -1,4 +1,5 @@
 //  @4  stack
+package day9;
 
 import java.util.Stack;
 
@@ -23,6 +24,7 @@ public class Stackexample
 			System.out.println(n);
 		}
 		System.out.println("----------------------------------");
+		
 		int ele=s.pop();
 		System.out.println(ele);
 		System.out.println("----------------------------------");
