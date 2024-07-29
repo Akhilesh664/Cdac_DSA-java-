@@ -1,5 +1,6 @@
 package d12;
 
-public class ReadStuObject {
+public class ReadStuObject 
+{
 
 }
