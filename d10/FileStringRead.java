@@ -14,7 +14,6 @@ public class FileStringRead
 		while((ch = fr.read()) != -1) {
 			System.out.println((char)ch);
 		}
-		
 		System.out.println();
 		
 		System.out.println("file read is over");
