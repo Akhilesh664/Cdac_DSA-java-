@@ -8,6 +8,8 @@ import java.sql.Statement;
 
 public class JdbcStatement 
 {
+
+	
 	public static void main(String[] args) throws ClassNotFoundException, SQLException 
 	{
 		Class.forName("com.mysql.cj.jdbc.Driver");
