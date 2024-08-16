@@ -10,9 +10,7 @@ public class TestArray {
 		
 		ArrayManagement.displayArray(num);
 		
-		ArrayManagement.sumArray(num);
-		
-		
+		ArrayManagement.sumArray(num);	
 	}
 
 }
