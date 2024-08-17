@@ -7,7 +7,6 @@ public class Student extends Person
 	int mark;
 	String subject;
 	
-	
 	Student(){
 		System.out.println("noc student");
 	}
