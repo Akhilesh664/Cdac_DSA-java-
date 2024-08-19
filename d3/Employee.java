@@ -13,6 +13,7 @@ public class Employee // declaring properties
    	 name = "kumar";
    	 sal = 40000;
    	 
+	 
    	this.dispEmp();
     }
 	
