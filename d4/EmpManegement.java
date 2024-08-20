@@ -7,7 +7,6 @@ public class EmpManegement {
 
     static Emp[] createEmpArray() {
         Emp[] e = new Emp[2];
-        
         Scanner s = new Scanner(System.in);    
         
         for (int i = 0; i < e.length; i++) {
