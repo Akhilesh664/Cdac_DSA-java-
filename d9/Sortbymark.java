@@ -12,7 +12,6 @@ public class Sortbymark implements Comparator<Student>
 			return 1;
 		else
 			return -1;
-		
 	}
 	
 
