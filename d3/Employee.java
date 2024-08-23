@@ -2,6 +2,7 @@ package d3;
 
 public class Employee // declaring properties
 {
+	
 	int empno;
 	String name;
 	float sal;
