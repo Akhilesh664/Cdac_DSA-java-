@@ -11,6 +11,7 @@ public class FileStringRead
 		
 		int ch;
 		
+		
 		while((ch = fr.read()) != -1) {
 			System.out.println((char)ch);
 		}
