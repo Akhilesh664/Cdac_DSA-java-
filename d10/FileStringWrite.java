@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
 public class FileStringWrite 
 {
 	public static void main(String[] args) throws IOException 
