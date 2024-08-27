@@ -7,7 +7,8 @@ public class Teacher extends Person
 	   {
 		
 		   super(no, name, add);
-		   this.sal = sal;
+		    this.sal = sal;
+
 	   }
 
 	
