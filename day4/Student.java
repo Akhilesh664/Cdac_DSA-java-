@@ -11,8 +11,6 @@ public class Student
 	static String cname;
 	
 	
-	
-	
 	 Student(int sid, String sname, int mark) 
 	{
 		
