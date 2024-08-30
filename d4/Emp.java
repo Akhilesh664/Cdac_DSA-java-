@@ -12,9 +12,7 @@ public class Emp {
         this.sal = sal;
     
     }
-    
 
-    
     public void dispEmp() {
         System.out.println("Employee Number: " + eno + ", Name: " + ename + ", Salary: " + sal);
     }
