@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ArrayManagement 
 {
 
+	
 	public static int[] readArray() 
 	{
 
