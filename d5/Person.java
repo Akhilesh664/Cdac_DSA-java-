@@ -6,6 +6,7 @@ public class Person
 	String name;
 	String add;
 	
+	
 	Person()
 	{
 		System.out.println("noc person");
