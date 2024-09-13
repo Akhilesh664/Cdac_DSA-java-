@@ -6,6 +6,7 @@ public class Emp {
     public float sal;
     
     
+    
     public Emp(int eno, String ename, float sal) {
         this.eno = eno;
         this.ename = ename;
