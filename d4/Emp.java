@@ -9,6 +9,7 @@ public class Emp {
     
     public Emp(int eno, String ename, float sal) {
         this.eno = eno;
+        
         this.ename = ename;
         this.sal = sal;
     
