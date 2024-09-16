@@ -10,6 +10,7 @@ public class FileReadChar
 	{
 		FileReader fr = new FileReader("dac");
 		
+		
 		int ch;
 		
 		while((ch = fr.read()) != -1) {
