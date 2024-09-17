@@ -7,7 +7,7 @@ public class MultiThreading extends Thread
 
 	public void run()
 	{
-		for(int i =0;i<10;i++)
+		for(int i=0; i<10; i++)
 		{
 			try {
 				Thread.sleep(500);
@@ -24,7 +24,7 @@ public class MultiThreading extends Thread
 	{
 	
 		MultiThreading t = new MultiThreading();
-		t.start();
+		t.run();
 		System.out.println("main ended");
 		
 		

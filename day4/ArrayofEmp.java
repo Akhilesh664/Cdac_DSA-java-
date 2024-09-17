@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ArrayofEmp 
 {
-
 	public static void main(String[] args) 
 	{
 	    Emp[] e;
@@ -23,11 +22,9 @@ public class ArrayofEmp
 		
 		EmpManagement.displayEmpArray(e);
 			
-		}
-		
-		
-		
 	}
+		
+}
 	
 	
 	

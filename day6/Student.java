@@ -14,13 +14,11 @@ public class Student
 		this.mark = mark;
 	}
 	
-	
 		
 	@Override
 	public String toString() {
 		return "Student [sno=" + sno + ", name=" + name + ", mark=" + mark + "]";
 	}
-
 
 
 

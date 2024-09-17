@@ -1,4 +1,5 @@
 // @4
+package day5;
 
 public class Testinheritance1 
 {
@@ -7,12 +8,13 @@ public class Testinheritance1
 	
 	{
 	
-		Student s = new Student(1001,"shan","blr",30 ,"java");
+		Student s = new Student(); //1001,"shan","blr",30 ,"java"
+		s.readStudent();
 		s.dispStudent();
 		s.findresult();
 		
 		Teacher t = new Teacher(1002,"raj","pune",40000);
-	    	t.dispTeacher();
+	    t.dispTeacher();
 		t.findtax();
 		
 	}

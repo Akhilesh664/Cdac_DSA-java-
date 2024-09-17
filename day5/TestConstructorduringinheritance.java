@@ -1,5 +1,6 @@
 // #4
 package day5;
+
 class D
 {
 	int i;
@@ -13,7 +14,6 @@ class D
 		this.i = i;
 		System.out.println( "pa A"+i);
 	}
-	
 }
 
 class E extends D
@@ -25,23 +25,23 @@ class E extends D
 	}
 	
 	E(int i,int j)
-	{  super(i);
-	  
+	{  
+		super(i);
 		this.j = j;
 		System.out.println( "p B" + j);
-	}
-	
+	}	
 }
-
 
 
 public class TestConstructorduringinheritance 
 {
-
 	public static void main(String[] args) 
 	{
 		E e = new E(10,20);
 	}
-	
-	
 }
+
+// output:  
+// noc A
+// pa A10
+// p B20

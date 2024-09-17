@@ -14,16 +14,18 @@ public class Student extends Person
 		System.out.println("noc Student");
 	}
 
-	public Student(int no,String name,String add,int mark, String subject) {
-		super(no,name,add);
-		this.mark = mark;
-		this.subject = subject;
-	}
 
+//	public Student(int no,String name,String add,int mark, String subject) {
+//		super(no,name,add);
+//		this.mark = mark;
+//		this.subject = subject;
+//	}
 
+	
 	void readStudent()
 	{
 		Scanner s = new Scanner(System.in);
+		System.out.println("enter details for student object : ");
 		no  = s.nextInt();
 		name = s.next();
 		add = s.next();
@@ -31,9 +33,10 @@ public class Student extends Person
 		subject = s.next();
 	} 
 	
+	
 	void dispStudent()
 	{
-		System.out.print(no + name + add +mark+subject);
+		System.out.print(no + name + add + mark + subject);
 	}
 	
 	

@@ -33,8 +33,8 @@ public class TestOverloading
 	public static void main(String[] args) 
 	{
 		
-		String [] sub = {"c++","java","dsa"};
-		int [] n = {90,30,60,20};
+		String[] sub = {"c++","java","dsa"};
+		int[] n = {90,30,60,20};
 		
 		methodOverloading.sort(sub);
 		System.out.println();
