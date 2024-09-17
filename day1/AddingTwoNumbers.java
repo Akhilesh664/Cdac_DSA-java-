@@ -10,11 +10,10 @@ public class AddingTwoNumbers
 		//read integer
 		//read string
 		
-		
-		
 	     int a=0;
 	     int b=0; 
 	     int total=0;
+	    
 	     Scanner s = new Scanner(System.in);
 	     System.out.println("enter the value of a and b");
 			a=s.nextInt();

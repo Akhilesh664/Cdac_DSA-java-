@@ -8,20 +8,7 @@ public class TestArray
 	{
 		int[] num;
 		num=ArrayManagement.readArray();
-		
-		
-	ArrayManagement.displayArray(num);
-	ArrayManagement.sumofArrayElement(num);
-		 
-		
-		
-		
-	
-		
-		
-		
-		
+		ArrayManagement.displayArray(num);
+		ArrayManagement.sumofArrayElement(num);
 	}
-
-	
 }

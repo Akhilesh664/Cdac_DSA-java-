@@ -3,9 +3,8 @@ package day4;
 
 public class Test 
 {
-
-	static int no;
 	
+	static int no;
 	
 	static void increment()
 	{
@@ -21,10 +20,6 @@ public class Test
 	      t2.increment();
 	      Test t3 = new Test();
 	      t3.increment();
-	      
-	      
-	      
 	}
-	
-	
+
 }

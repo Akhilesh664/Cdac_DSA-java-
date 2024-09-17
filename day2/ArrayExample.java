@@ -23,7 +23,7 @@ public class ArrayExample
 		}
 		System.out.println(total);
 		
-      
+      //===========================
 		
 		String[] s = new String[3];
 		s[0]= "c++";
@@ -37,15 +37,15 @@ public class ArrayExample
 		}
 		
 		
-	String[] sub = {"c++","python",".net"};	
+		String[] sub = {"c++","python",".net"};	
+			
+			//iterate using for each
+		System.out.println("using for each");
 		
-		//iterate using for each
-	System.out.println("using for each");
-	
-	for(String str :sub)
-	{
-		System.out.println(str);
-	}
+		for(String str :sub)
+		{
+			System.out.println(str);
+		}
 	
 	}
 }

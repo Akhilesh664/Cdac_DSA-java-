@@ -26,9 +26,7 @@ public class Test2
 		if(per>80)
 			grade = 'A';
 		else if(per>=60 && per<80)
-		
 			grade = 'B';
-		
 		else if(per>=50 && per<60)
 			grade = 'C';
 		else
