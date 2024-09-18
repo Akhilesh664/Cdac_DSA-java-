@@ -41,27 +41,25 @@ class Axis extends Bank
 	}
 	
 }
+
+
 public class Testruntimepolymorphism 
-{
-	
+{	
 	private static Bank createbankobject(String bname) 
 	{
-	
 		    if(bname.equals("Sbi"))
 		    	return new Sbi();
 		    else if(bname.equals("Axis"))
 		    	return new Axis();
 		    else if(bname.equals("Icici"))
 		    	return new Icici();
-		    else return null;
-		
-		
+		    else return null;	
 	}
 	
 
 	public static void main(String[] args) 
 	{
-	   Bank b;
+		Bank b;
 	    
 	    System.out.println("enter the bank to make payment");
 	    Scanner s = new Scanner(System.in);

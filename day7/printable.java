@@ -1,21 +1,18 @@
 // 3
-
 package day7;
+
 public interface printable
 {
-
-	public void print();
-	
-	
+	public void print(); // default abstract	
 }
+
 
 class A implements printable
 {
 	public void print()
 	{
 		System.out.println("welcome to interface example");
-	}
-	
+	}	
 }
 
 class testinteface
