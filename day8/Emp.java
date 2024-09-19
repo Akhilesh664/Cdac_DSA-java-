@@ -1,11 +1,13 @@
 //@2 Array-List
 package day8;
+
 public class Emp 
 {
 
 	int empno;
 	String name;
 	int sal;
+	
 	
 	public Emp(int empno, String name,int sal) 
 	{
@@ -20,8 +22,5 @@ public class Emp
 	{
 		System.out.println(empno+name+sal);
 	}
-	
-	
-	
 	
 }

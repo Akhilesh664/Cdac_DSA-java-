@@ -6,10 +6,8 @@ import java.util.Iterator;
 
 public class ArrayListExample
 {
-
 	public static void main(String[] args) 
-	{
-	
+	{	
 		ArrayList<Integer>  al = new ArrayList<>();
 		
 		
@@ -37,21 +35,21 @@ public class ArrayListExample
 //	    System.out.println(al);
 	    //iterating using for each
 		
-		for( Integer n :al)
-		{
-			System.out.println(n);
-		}
+//		for( Integer n :al)
+//		{
+//			System.out.print(n);
+//		}
 		
 		
 		//iterate using iterator
 		
-//		System.out.println("using iterator");
-//		Iterator it =al.iterator();
-//		
-//		while(it.hasNext())
-//		{
-//			System.out.println(it.next());
-//		}
+		System.out.println("using iterator");
+		Iterator it =al.iterator();
+		
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
 		
 
 		
