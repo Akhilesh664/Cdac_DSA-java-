@@ -9,8 +9,6 @@ public class Testabstraction
 		{
 			 Bike b  = new Honda();
 			 b.run();
-		   
-		
 		
 	}
 }
