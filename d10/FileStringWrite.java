@@ -16,6 +16,7 @@ public class FileStringWrite
 		System.out.println("enter cname");
 		String cname;
 		
+		
 		FileWriter fw = new FileWriter("dac");
 		while(!(cname = br.readLine()).equals("exit")) {
 			fw.write(cname + '\n');
