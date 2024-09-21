@@ -25,7 +25,6 @@ public class Student
 	{
 		System.out.println(sid + sname +mark + cname);
 	}
-	
 }
 
 
