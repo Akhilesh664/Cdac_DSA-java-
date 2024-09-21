@@ -12,7 +12,6 @@ public class Exception3
 			{
 				throw new EligibleException("not eligible for vote");
 				
-				
 			}
 			else
 			{
