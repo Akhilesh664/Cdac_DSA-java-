@@ -16,6 +16,5 @@ public class Testinheritance1
 		Teacher t = new Teacher(1002,"raj","pune",40000);
 	    t.dispTeacher();
 		t.findtax();
-		
 	}
 }
