@@ -3,6 +3,7 @@ package GFG;
 import java.util.Arrays;
 
 public class checkArray {
+
 	
 	public static boolean check(int[] arr1, int[] arr2) {
         Arrays.sort(arr1);
