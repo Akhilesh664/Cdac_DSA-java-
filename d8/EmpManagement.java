@@ -13,6 +13,7 @@ public class EmpManagement {
 		Emp e3 = new Emp(103,"prakash",2000);
 		
 		ArrayList<Emp> al = new ArrayList<>();
+		
 		al.add(e1);
 		al.add(e2);
 		al.add(e3);
