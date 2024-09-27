@@ -14,6 +14,7 @@ public class EmpManegement {
             e[i] = new Emp(s.nextInt(), s.next(), s.nextFloat());
         }
         
+        
         return e;
     }
     
