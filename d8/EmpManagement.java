@@ -8,6 +8,7 @@ public class EmpManagement {
 	// create addEmp function
 	public static ArrayList<Emp> addEmp() {
 		
+		
 		Emp e1 = new Emp(101,"anil",3000);
 		Emp e2 = new Emp(102,"neha",7000);
 		Emp e3 = new Emp(103,"prakash",2000);
